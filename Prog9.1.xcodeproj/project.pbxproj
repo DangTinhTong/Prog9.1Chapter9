@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		84A6EDA41FD39D140078641D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6EDA31FD39D140078641D /* main.m */; };
+		84A6EDAC1FD39D2F0078641D /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6EDAB1FD39D2F0078641D /* Complex.m */; };
+		84A6EDAF1FD3A0B70078641D /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6EDAE1FD3A0B70078641D /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		84A6EDA01FD39D140078641D /* Prog9.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Prog9.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6EDA31FD39D140078641D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A6EDAA1FD39D2F0078641D /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		84A6EDAB1FD39D2F0078641D /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		84A6EDAD1FD3A0B70078641D /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		84A6EDAE1FD3A0B70078641D /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				84A6EDA31FD39D140078641D /* main.m */,
+				84A6EDAA1FD39D2F0078641D /* Complex.h */,
+				84A6EDAB1FD39D2F0078641D /* Complex.m */,
+				84A6EDAD1FD3A0B70078641D /* Fraction.h */,
+				84A6EDAE1FD3A0B70078641D /* Fraction.m */,
 			);
 			path = Prog9.1;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A6EDAC1FD39D2F0078641D /* Complex.m in Sources */,
 				84A6EDA41FD39D140078641D /* main.m in Sources */,
+				84A6EDAF1FD3A0B70078641D /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
